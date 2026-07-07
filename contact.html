@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About | Electrical n That</title>
-  <meta name="description" content="Electrical n That is a licensed electrical contractor servicing the Northern Rivers.">
-  <link rel="canonical" href="https://www.electricalnthat.com.au/about.html">
-  <meta property="og:title" content="About | Electrical n That">
-  <meta property="og:description" content="Electrical n That is a licensed electrical contractor servicing the Northern Rivers.">
+  <title>Contact & Quotes | Electrical n That</title>
+  <meta name="description" content="Call, text or request a quote from Electrical n That, licensed electrician servicing Casino, Kyogle and Lismore.">
+  <link rel="canonical" href="https://www.electricalnthat.com.au/contact.html">
+  <meta property="og:title" content="Contact & Quotes | Electrical n That">
+  <meta property="og:description" content="Call, text or request a quote from Electrical n That, licensed electrician servicing Casino, Kyogle and Lismore.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.electricalnthat.com.au/about.html">
+  <meta property="og:url" content="https://www.electricalnthat.com.au/contact.html">
   <meta name="theme-color" content="#153826">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     "@type": "Electrician",
     "name": "Electrical n That",
     "image": "https://www.electricalnthat.com.au/assets/img/og-image.jpg",
-    "url": "https://www.electricalnthat.com.au/about.html",
+    "url": "https://www.electricalnthat.com.au/contact.html",
     "telephone": "+61452558927",
     "email": "scottymatthews@live.com.au",
     "priceRange": "$$",
@@ -34,7 +34,7 @@
       "addressCountry": "AU"
     },
     "areaServed": ["Casino NSW", "Kyogle NSW", "Lismore NSW", "Northern Rivers NSW"],
-    "description": "Electrical n That is a licensed electrical contractor servicing the Northern Rivers."
+    "description": "Call, text or request a quote from Electrical n That, licensed electrician servicing Casino, Kyogle and Lismore."
   }
   </script>
 </head><body>
@@ -63,8 +63,8 @@
             <li><a href="services.html">Services</a></li>
             <li><a href="service-areas.html">Service Areas</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html" aria-current="page">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
         </ul>
       </nav>
 
@@ -82,29 +82,63 @@
   <main id="main">
   <div class="page-hero">
     <div class="container">
-      <p class="breadcrumb"><a href="index.html">Home</a> / About</p>
-      <h1>About Electrical n That</h1>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+      <h1>Get a Quote</h1>
+      <p style="color:var(--gold-100);max-width:60ch;">Call, text a photo of the job, or fill in the form — whatever's easiest.</p>
+      <div class="badge-row">
+        <span class="badge">Lic. 276769C</span>
+        <span class="badge">ABN 93 516 369 713</span>
+        <span class="badge">Licensed &amp; Insured</span>
+      </div>
     </div>
   </div>
 
   <section>
     <div class="container two-col">
       <div class="content-block">
-        <p class="eyebrow">The Business</p>
-        <h2>A licensed electrician, not a call centre</h2>
-        <p>Electrical n That is a Casino-based electrical contracting business, licensed (Lic. 276769C) and covering residential and commercial work across the Northern Rivers.</p>
-        <p>Jobs are quoted and delivered by the same licensed team you speak to on the phone — not passed between office staff and subcontractors.</p>
-        <h3>Straightforward, by the numbers</h3>
-        <p>Every quote is based on what the job actually needs. If something's going to cost more than expected, you'll hear about it before it happens, not after.</p>
-        <h3>Licensed &amp; insured</h3>
-        <p>All work is completed under NSW Licence 276769C, ABN 93 516 369 713, fully insured for residential and commercial jobs.</p>
+        <h2>Contact details</h2>
+        <p><strong>Phone:</strong> <a href="tel:+61452558927">0452 558 927</a><br>
+        <strong>Text a photo:</strong> <a href="sms:+61452558927">0452 558 927</a><br>
+        <strong>Email:</strong> <a href="mailto:scottymatthews@live.com.au">scottymatthews@live.com.au</a></p>
+        <h3>Service area</h3>
+        <p>Casino, Kyogle, Lismore and surrounding Northern Rivers areas.</p>
+        <h3>Response times</h3>
+        <p>Urgent safety issues (no power, sparking, tripping safety switch) — same-day where possible. General quotes — usually within 1–2 business days.</p>
       </div>
-      
-        <div class="tag-card">
-          <div class="tag-line">Lic. No.<b>276769C</b></div>
-          <div class="tag-line">ABN<b>93 516 369 713</b></div>
-          <div class="tag-status">Licensed &amp; Insured</div>
+
+      <form class="quote-form" id="quote-form">
+        <h2 style="margin-top:0;">Request a quote</h2>
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
         </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" required>
+        </div>
+        <div class="field">
+          <label for="suburb">Suburb</label>
+          <input id="suburb" name="suburb" type="text" placeholder="Casino, Kyogle, Lismore...">
+        </div>
+        <div class="field">
+          <label for="service">Type of job</label>
+          <select id="service" name="service">
+            <option>Residential Electrical</option>
+            <option>Commercial Electrical</option>
+            <option>Switchboard Upgrade</option>
+            <option>EV Charger Installation</option>
+            <option>Safety Switch / Smoke Alarm Compliance</option>
+            <option>Emergency Callout</option>
+            <option>Not sure</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Tell us what's going on</label>
+          <textarea id="message" name="message" placeholder="A few lines about the job..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Request</button>
+        <p class="form-note">This opens an email to scottymatthews@live.com.au with your details. Swap this for a Formspree or similar form endpoint if you'd rather it land straight in an inbox without opening mail apps.</p>
+      </form>
     </div>
   </section>
 
